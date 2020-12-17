@@ -1,0 +1,28 @@
+.main-section {
+   position: static;
+}
+.background {
+   position: static;
+   height: 92vh;
+   background-image: url("../resources/img/doctor-background.jpg");
+   background-size: cover; /* <------ */
+   background-repeat: no-repeat;
+   background-position: center center;
+   filter: blur(2px) grayscale(50%);
+   z-index: 0;
+}
+
+.upper-section > .login-btn {
+   position: absolute;
+   z-index: 1;
+   top: 80%;
+   left: 60%;
+   width: 20%;
+}
+.upper-section > .reg-btn {
+   position: absolute;
+   z-index: 1;
+   top: 80%;
+   left: 30%;
+   width: 20%;
+}

@@ -1,13 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Navbar from "./components/navbar";
+import Main from "./Views/mainpage";
 import "bootstrap/dist/css/bootstrap.min.css";
-import App from "./App";
 
 ReactDOM.render(
    <div>
-      <Navbar></Navbar>
-      <App />
+      <Main></Main>
    </div>,
 
    document.getElementById("root")
